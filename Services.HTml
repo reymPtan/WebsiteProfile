@@ -1,0 +1,92 @@
+<html>
+<head>
+    <title>My Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 50px 20px;
+        }
+        h1 {
+            font-size: 36px;
+            color: #333;
+        }
+        h1 span {
+            color: #f4b400;
+        }
+        p {
+            color: #666;
+            font-size: 16px;
+            margin-bottom: 50px;
+        }
+        .services {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .service {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            width: 80%;
+            margin-bottom: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+        }
+        .service:hover {
+            transform: translateY(-10px);
+        }
+        .service:active {
+            box-shadow: 0 0 20px 5px rgba(244, 180, 0, 0.7);
+        }
+        .service i {
+            font-size: 50px;
+            color: #f4b400;
+            margin-bottom: 20px;
+        }
+        .service h3 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .service p {
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>My <span>Services</span></h1>
+        
+        <div class="services">
+            <a href="web-design.html" class="service">
+                <i class="fas fa-code"></i>
+                <h3>Web Design</h3>
+                
+            </a>
+            <a href="social-media.html" class="service">
+                <i class="fab fa-facebook-f"></i>
+                <h3>Social Media</h3>
+               
+            </a>
+            <a href="video-editing.html" class="service">
+                <i class="fas fa-video"></i>
+                <h3>Video Editing</h3>
+                
+            </a>
+        </div>
+    </div>
+</body>
+</html>
